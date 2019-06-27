@@ -19,7 +19,6 @@ public class Main {
         print(factory.create("BUILDING-A", "100 WEST MAIN", "1"));
         print(factory.create("BUILDING-B", "110 WEST MAIN", "2"));
         print(factory.create("BUILDING-C", "120 WEST MAIN", "3"));
-
     }
 
 }
