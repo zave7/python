@@ -1,0 +1,32 @@
+1. 환경설정 ( vscode )
+	1) https://www.python.org/downloads/ 에서 install 파일 다운로드
+	2) 설치 ( path 추가 )
+	3) vscode 파이썬 환경 설정 ( 마켓플레이스에서 download )
+	4) launch.json 설정
+	
+2. 문법
+	- 기본 함수
+		· print()
+			'+', ',' 로 문장을 합칠 수 있다
+				+ 경우에는 타입 캐스팅이 필요하지만 ,은 필요가 없다
+		· 
+		
+	1) 자료형
+		(1) 숫자
+		(2) 문자
+			- ', " 둘다 가능
+			- 숫자와 같이 쓸 수 있음
+				ex) "z" * 9
+		(3) boolean
+			참 : True
+			거짓 : False
+			not 연산 : not
+	
+	2) 변수
+		(1) 이름 = 값
+		
+	3) 타입 캐스팅
+		(1) 숫자 -> 문자
+			- str(5)
+		(2) 불린 -> 문자
+			- str(True)
