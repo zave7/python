@@ -17,4 +17,4 @@ print( python.find("java")) # 없으면 -1 반환
 print( python.index("Python")) # 특정 문자열 시작 위치 반환
 # print( python.index("java")) # 없으면 substring not found 에러
 
-print( python.count("n")) # 특정 문자 카운트 
+print( python.count("n")) # 특정 문자 카운트
