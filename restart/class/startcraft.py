@@ -66,7 +66,7 @@ class Tank(AttackUnit):
 
     seize_developed = False
     def __init__(self):
-        AttackUnit.__init__(self, "탱크", 150, 1, 35):
+        AttackUnit.__init__(self, "탱크", 150, 1, 35)
         self.seize_mode = False
 
     def set_seize_mode(self):
@@ -83,7 +83,7 @@ class Tank(AttackUnit):
 
 class Wraith(FlyableAttackUnit):
     def __init__(self):
-        FlyableAttackUnit.__init__("레이스", 80, 20, 5)
+        FlyableAttackUnit.__init__(self, "레이스", 80, 20, 5)
         self.clocked = False
     
     def clocking(self):
@@ -92,7 +92,7 @@ class Wraith(FlyableAttackUnit):
             self.clocked == False
         else:
             print("{0} 클로킹 모드 설정합니다.".format(self.name))
-            self.clocked == True:
+            self.clocked == True
             
 def game_start():
     print("[알림] 새로운 게임을 시작합니다.")
@@ -133,7 +133,7 @@ for unit in attack_units:
     if isinstance(unit, Marine):
         unit.stimpack()
     elif isinstance(unit, Tank):
-        unit.seize_mode()
+        unit.set_seize_mode()
     elif isinstance(unit, Wraith):
         unit.clocking()
 
