@@ -1,0 +1,1 @@
+__all__ = ["vietnam", "thailand"] # 어떤 모듈을 개방 할 지 설정
