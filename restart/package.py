@@ -11,7 +11,13 @@
 # trip_to = vietnam.VietnamPackage()
 # trip_to.detail()
 
-from travel import * # travel패키지 안에 있는 모든것을 가져오겠다는 것
-# trip_to = vietnam.VietnamPackage()
-trip_to = thailand.ThailandPackage()
-trip_to.detail()
+# from travel import * # travel패키지 안에 있는 모든것을 가져오겠다는 것
+# # trip_to = vietnam.VietnamPackage()
+# trip_to = thailand.ThailandPackage()
+# trip_to.detail()
+
+from travel import *
+import inspect # 모듈의 위치 파악
+import random
+print(inspect.getfile(random))
+# print(inspect.getfile(thailand))
