@@ -1,0 +1,15 @@
+pip
+
+# 명령어
+    - pip list
+        : 모듈 리스트 조회
+    - pip show {modul-name}
+        : 모듈 정보 조회
+    - pip --upgrade {module-name}
+        : 모듈 업데이트
+    - pip uninstall {module-name}
+        : 모듈 삭제
+
+# 모듈 검색 
+    - https://pypi.org/ 
+
